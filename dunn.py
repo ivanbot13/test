@@ -1,3 +1,4 @@
+
 # Import necessary libraries
 import pandas as pd
 import scikit_posthocs as sp
@@ -7,7 +8,7 @@ import matplotlib.pyplot as plt
 # Define the dataset for Trials #1-12
 data_trials_1_12 = {
     "0mL bacteria": [10, 11, 7, 10, 6, 5, 9, 8, 9, 7, 7, 8],
-    "0.5mL bacteria": [11, 11, 10, 1, 2, 5, 13, 7, 8, 10, 9,8],
+    "0.5mL bacteria": [11, 11, 10, 1, 2, 5, 13, 7, 8, 10, 9, 8],
     "1mL bacteria": [10, 9, 12, 8, 8, 8, 4, 12, 9, 5, 9, 6],
     "2mL bacteria": [9, 10, 10, 9, 1, 7, 10, 8, 9, 11, 9, 10],
     "4mL bacteria": [10, 9, 10, 11, 5, 9, 8, 10, 9, 10, 9, 6]
@@ -15,7 +16,7 @@ data_trials_1_12 = {
 
 # Define the dataset for Trials #13-24
 data_trials_13_24 = {
-    "0mL bacteria": [5, 9, 9, 7, 9, 9, 6, 7, 9, 10, 8, 7]
+    "0mL bacteria": [5, 9, 9, 7, 9, 9, 6, 7, 9, 10, 8, 7],
     "0.5mL bacteria": [7, 12, 7, 11, 9, 10, 6, 8, 11, 9, 10, 11],
     "1mL bacteria": [8, 8, 9, 13, 11, 9, 9, 8, 9, 10, 7 ,7],
     "2mL bacteria": [9, 10, 12, 12, 9, 7, 5, 9, 10, 12, 3, 6],
